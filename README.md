@@ -36,3 +36,9 @@ Core Cloud aims to be [well architected](https://aws.amazon.com/architecture/wel
 Core Cloud operates consumption-based billing meaning teams only pay for their usage.\
 This incentivises teams to take responsibility and optimise resources attributed to them.\
 Core Cloud supports teams in optimising their resources using techniques like autoscaling, downscaling, spot pricing and ARM powered instances.
+
+### Platform not process
+
+Core Cloud aims to be light on process and empowering for teams.\
+Core Cloud allows team to engage at the right level for them; teams can create and manage their own resources or make use of our support model.\
+Core Cloud aims for 'Minimum Viable Platform' with no unnecessary abstractions or coupling.
