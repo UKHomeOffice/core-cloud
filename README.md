@@ -25,3 +25,8 @@ Core Cloud aims to make the onboarding of teams and engineers and ongoing use of
 
 Core Cloud respects the [NCSC cloud security principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles).\
 Core Cloud practices defense in depth and has clear separation between teams.
+
+### Native first
+
+Core Cloud is native first, favouring AWS native tooling and managed services over custom tooling.\
+Core Cloud aims to be [well architected](https://aws.amazon.com/architecture/well-architected).
