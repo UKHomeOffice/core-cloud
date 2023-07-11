@@ -30,3 +30,9 @@ Core Cloud practices defense in depth and has clear separation between teams.
 
 Core Cloud is native first, favouring AWS native tooling and managed services over custom tooling.\
 Core Cloud aims to be [well architected](https://aws.amazon.com/architecture/well-architected).
+
+### Responsible with cost
+
+Core Cloud operates consumption-based billing meaning teams only pay for their usage.\
+This incentivises teams to take responsibility and optimise resources attributed to them.\
+Core Cloud supports teams in optimising their resources using techniques like autoscaling, downscaling, spot pricing and ARM powered instances.
