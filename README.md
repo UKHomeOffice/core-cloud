@@ -1,4 +1,3 @@
-
 # Core Cloud
 
 SAS Core Cloud aims to be a high quality, easy to operate, strategic platform for the Home Office.
@@ -21,3 +20,8 @@ Core Cloud commits to publishing honest data about SLAs, availability metrics, a
 Core Cloud will clearly communicate upcoming changes, maintenance and upgrades.\
 Core Cloud treats documentation as a 'first class citizen'.\
 Core Cloud aims to make the onboarding of teams and engineers and ongoing use of the platform as simple as possible.
+
+### Unobtrusive Security
+
+Core Cloud respects the [NCSC cloud security principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles).\
+Core Cloud practices defense in depth and has clear separation between teams.
