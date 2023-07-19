@@ -10,10 +10,10 @@ $brand-color: #8f23b3;
 body:before {
     content: "DRAFT";
     position:fixed;
-    bottom:50%;
+    bottom:40%;
     display: block;
     width: 100%;
-    font-size: 100px;
+    font-size: 10em;
     text-align: center;
     opacity:0.2;
     z-index:99;
@@ -114,11 +114,22 @@ body .x-govuk-masthead:nth-child(4) {
     width: 44%;
     padding: 2%;
   }
+
+  body:before {
+    bottom:35%;
+    font-size: 6em;
+  }
+
 }
 @media (max-width: 415px) {
   .flex-items > div {
     width: 100%;
     padding: 3%;
+  }
+
+  body:before {
+    bottom:40%;
+    font-size: 7em;
   }
 }
 
