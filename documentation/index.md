@@ -13,7 +13,7 @@ startButton:
   <div>
     <h2 class="govuk-heading-m govuk-!-font-size-27">{{ item.data.title }}</h2>
     <p class="govuk-body">{{ item.data.excerpt | markdown("inline") }}</p>
-    <p class="govuk-body"><a class="govuk-link govuk-!-font-weight-bold" href="{{ item.url | url }}">Learn about about our {{ item.data.title | lower }}</a></p>
+    <p class="govuk-body"><a class="govuk-link govuk-!-font-weight-bold" href="{{ item.url | url }}">Learn about our {{ item.data.title | lower }}</a></p>
   </div>
 {% endfor %}
 </div>
