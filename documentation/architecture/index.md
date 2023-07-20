@@ -23,5 +23,7 @@ tags:
 * TDAs may require all of their east-west traffic to also run through NGFWs and this should be managed by
 policy and applied at an OU level (see [Account Strategy](../governance/)).
 
+### (TODO)
+List how this meets NCSC recommendations or any further required considerations
 ### Diagram
 ![image info](../assets/images/CoreCloud.png)
