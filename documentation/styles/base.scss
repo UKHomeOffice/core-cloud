@@ -8,21 +8,21 @@ $brand-color: #8f23b3;
 }
 
 body:before {
-    content: "DRAFT";
-    position:fixed;
-    bottom:40%;
-    display: block;
-    width: 100%;
-    font-size: 10em;
-    text-align: center;
-    opacity:0.2;
-    z-index:99;
-    color:black;
-    -webkit-transform: rotate(-40deg);
-    -moz-transform: rotate(-40deg);
-    -o-transform: rotate(-40deg);
-    transform: rotate(-40deg);
-  }
+  content: "DRAFT";
+  position: fixed;
+  bottom: 40%;
+  display: block;
+  width: 100%;
+  font-size: 10em;
+  text-align: center;
+  opacity: 0.2;
+  color: black;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+  pointer-events: none;
+}
 
 .govuk-header {
   background-color: #f1f1f1;
@@ -116,10 +116,9 @@ body .x-govuk-masthead:nth-child(4) {
   }
 
   body:before {
-    bottom:35%;
+    bottom: 35%;
     font-size: 6em;
   }
-
 }
 @media (max-width: 415px) {
   .flex-items > div {
@@ -128,7 +127,7 @@ body .x-govuk-masthead:nth-child(4) {
   }
 
   body:before {
-    bottom:40%;
+    bottom: 40%;
     font-size: 7em;
   }
 }
