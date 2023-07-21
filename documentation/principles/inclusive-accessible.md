@@ -5,6 +5,8 @@ title: Inclusive and accessible
 excerpt: Short extract
 tags:
 - principle
+eleventyNavigation:
+  parent: principles
 ---
 Core Cloud practices an 'open by default' stance, this includes design documentation, decisions, and code repositories, and we welcome contributions.\
 Core Cloud commits to publishing honest data about SLAs, availability metrics, and detailed RCAs.\

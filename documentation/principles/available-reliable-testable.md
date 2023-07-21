@@ -5,6 +5,8 @@ title: Available, reliable and testable
 excerpt: Of course it should be
 tags:
 - principle
+eleventyNavigation:
+  parent: principles
 ---
 Core Cloud designs for automation, allowing frequent, small, reversible changes.\
 Core Cloud considers blast radius reduction, disaster recovery, and automated failover and recovery as essential considerations in its design.\

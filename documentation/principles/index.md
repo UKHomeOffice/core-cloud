@@ -6,6 +6,9 @@ description: Below are our guiding principles
 excerpt: What guides us
 tags:
 - homepage
+eleventyNavigation:
+  key: principles
+  title: Principles
 ---
 {% from "govuk/components/button/macro.njk" import govukButton %}
 <div class="flex-items">
