@@ -26,4 +26,4 @@ policy and applied at an OU level (see [Account Strategy](../governance/)).
 ### (TODO)
 List how this meets NCSC recommendations or any further required considerations
 ### Diagram
-![image info](../assets/images/CoreCloud.png)
+![Network diagram](../assets/images/CoreCloud.png)
