@@ -4,9 +4,6 @@ layout: product.njk
 order: 1
 title: Core Cloud Documentation
 description: Documentation for the Home Office Core Cloud Platform
-startButton:
-    text: Get started
-    href: get-started
 ---
 <div class="flex-items animated-border">
 {% for item in collections["homepage"] %}
