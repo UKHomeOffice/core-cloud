@@ -2,12 +2,13 @@
 layout: sub-navigation
 order: 106
 title: Empowering
-excerpt: Short extract
+excerpt: We aim to allow teams to confidently deliver at pace and scale.
 tags:
 - principle
 eleventyNavigation:
   parent: principles
 ---
-Core Cloud aims to be light on process and empowering for teams.\
-Core Cloud allows team to engage at the right level for them; teams can create and manage their own resources or make use of our support model.\
-Core Cloud aims for 'Minimum Viable Platform' with no unnecessary abstractions or coupling.
+**We design for self-service.** \
+Teams should be able to provision their own resources from our service catalogue or make use of our support model and can pick which is right for them.
+
+**We aim to be a 'Minimum Viable Platform'** - light on process, with no unnecessary abstractions or coupling.
