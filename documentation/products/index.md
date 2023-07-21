@@ -8,6 +8,20 @@ tags:
 - homepage
 ---
 
+### Product based Delivery of Cloud
+<blockquote>
+<p>Amazon Web Services (AWS) most successful cloud customers utilize a product mindset to ensure great customer experiences.</p>
+
+A product in this context is defined by:
+* Performing a constrained number of common tasks very well,
+* Having clearly defined inputs and outputs,
+* Being useful to multiple customers, and
+* Continuously improved to meet the needs of those customers
+* Delivers value to the customer
+</blockquote><cite><a href="https://d1.awsstatic.com/whitepapers/building-a-cloud-operating-model.pdf">Building a Cloud Operating Model</a></cite>
+
+<br /><br />
+
 ### Products
 * CC Platform
 * CC Storage
@@ -34,3 +48,7 @@ Delivery teams can be a customer of more than one Core Cloud product
 For example, a team wants to run ec2 instances, lamdas and manage their own databases but don't want to run their own EKS. They could be a customer of Core Cloud Platform and Core Core Cloud k8s (i.e. both a tenant and subtenant).
 
 ![Product diagram](../assets/images/Product.png)
+
+### References
+[Building a Cloud Operating Model)](https://d1.awsstatic.com/whitepapers/building-a-cloud-operating-model.pdf)
+[Platform as a Product](https://platformengineering.org/talks-library/platform-as-a-product)
