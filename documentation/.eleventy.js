@@ -29,7 +29,7 @@ module.exports = function(eleventyConfig) {
         text: '© Crown Copyright 2023'
       },
       contentLicence: {
-        html: 'Licensed under the <a class="govuk-footer__link" href="./LICENSE.txt">MIT Licence</a>, except where otherwise stated'
+        html: 'Licensed under the <a class="govuk-footer__link" href="'+pathPrefix+'LICENSE.txt">MIT Licence</a>, except where otherwise stated'
       },
     },
     stylesheets: ['/styles/base.css'],
