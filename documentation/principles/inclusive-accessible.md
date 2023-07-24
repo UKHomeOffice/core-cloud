@@ -2,14 +2,22 @@
 layout: sub-navigation
 order: 102
 title: Inclusive and accessible
-excerpt: Short extract
+excerpt: We aim to be open and transparent
 tags:
 - principle
 eleventyNavigation:
   parent: principles
 ---
-Core Cloud practices an 'open by default' stance, this includes design documentation, decisions, and code repositories, and we welcome contributions.\
-Core Cloud commits to publishing honest data about SLAs, availability metrics, and detailed RCAs.\
-Core Cloud will clearly communicate upcoming changes, maintenance and upgrades.\
-Core Cloud treats documentation as a 'first class citizen'.\
-Core Cloud aims to make the onboarding of customers and engineers and ongoing use of the platform as simple as possible.
+**We practice 'open by default'.** \
+This includes design documentation, decisions, and code repositories.
+
+**We welcome contributions.**
+
+**We will publish honest data** about how we're meeting SLAs.
+
+**We will provide detailed RCAs** and use them to learn from our mistakes.
+
+**Communicating change to customers is crucial.** \
+We will clearly communicate upcoming changes, maintenance and upgrades.
+
+**Documentation is a 'first class citizen'** and will be easy to follow, to reduce failure demand.
