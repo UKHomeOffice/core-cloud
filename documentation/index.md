@@ -8,7 +8,7 @@ startButton:
     text: Get started
     href: get-started
 ---
-<div class="flex-items animated-border">
+<div class="flex-items">
 {% for item in collections["homepage"] %}
   <div>
     <h2 class="govuk-heading-m govuk-!-font-size-27">{{ item.data.title }}</h2>
