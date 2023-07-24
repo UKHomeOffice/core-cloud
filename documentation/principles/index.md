@@ -20,7 +20,7 @@ eleventyNavigation:
         {{ govukButton({
           classes: "x-govuk-button--inverse",
           html: html,
-          href: item.url,
+          href: item.url | url,
           isStartButton: false
         }) }}
   </div>
