@@ -1,5 +1,5 @@
 ---
-layout: Product.njk
+layout: product.njk
 order: 4
 title: Products
 description: The Core Cloud product family is comprised of multiple products that meet the needs of HO customers
