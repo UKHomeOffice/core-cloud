@@ -2,7 +2,7 @@
 layout: sub-navigation
 order: 105
 title: Cost Effective
-excerpt: We aim to help teams reduce build and run costs.
+excerpt: We aim to help customers reduce build and run costs.
 tags:
 - principle
 eleventyNavigation:
@@ -11,8 +11,8 @@ eleventyNavigation:
 **We operate consumption-based billing**. \
 Customers are charged on a consumption model and are incentivised to optimise their resources. 
 
-**We support teams in optimising their resources** using techniques like autoscaling, downscaling, spot pricing and ARM powered instances.
+**We support customers in optimising their resources** using techniques like autoscaling, downscaling, spot pricing and ARM powered instances.
 
-**Sensible defaults** in our service catalogue mean teams can run cheaply by default and won't have to spend development effort reinventing the wheel.
+**Sensible defaults** in our service catalogue mean customers can run cheaply by default and won't have to spend development effort reinventing the wheel.
 
-**Shared capability** of common tooling reduces the cost and effort for each team.
+**Shared services** will be used to reduce the cost and effort for customers.

@@ -23,5 +23,5 @@ Our CI/CD pipelines should contain every step required to build, test and releas
 Knowing the state of the platform and having alerting means we can ensure everything is running as it should be, and take preventative measures.
 
 **Disaster recovery is part of every change** we make. \
-We have robust operational procedures and practice techniques such as wargaming to ensure our [recovery point](https://en.wikipedia.org/wiki/Disaster_recovery#Recovery_Point_Objective) and [recovery time objectives](https://en.wikipedia.org/wiki/Disaster_recovery#Recovery_Time_Objective) are met. \
+We have robust operational procedures to ensure our [recovery point](https://en.wikipedia.org/wiki/Disaster_recovery#Recovery_Point_Objective) and [recovery time objectives](https://en.wikipedia.org/wiki/Disaster_recovery#Recovery_Time_Objective) are met. \
 We use [IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) to ensure we can quickly, easily and repeatably recover to a known state. 
