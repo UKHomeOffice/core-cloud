@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
       : '/';
 
   // Register the plugin
-  eleventyConfig.addPlugin(govukEleventyPlugin, {
+  const govukEleventyPluginConfig = {
     brandColour: '#8f23b3',
     fontFamily: 'roboto, system-ui, sans-serif',
     icons: {
@@ -35,7 +35,8 @@ module.exports = function(eleventyConfig) {
     stylesheets: ['/styles/base.css'],
     pathPrefix,
     url,
-  })
+  };
+  eleventyConfig.addPlugin(govukEleventyPlugin, govukEleventyPluginConfig)
 
   eleventyConfig.addPassthroughCopy('./assets')
   eleventyConfig.addPassthroughCopy({'../LICENSE': 'LICENSE.txt'})
@@ -48,7 +49,7 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: 'njk',
     dir: {
         // Use layouts from the plugin
-        includes: 'node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
+        layouts: 'node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
       }
     }
 };
