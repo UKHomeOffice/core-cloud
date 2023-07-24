@@ -9,6 +9,6 @@ eleventyNavigation:
   parent: principles
 ---
 **We design for self-service.** \
-Teams should be able to provision their own resources from our service catalogue or make use of our support model and can pick which is right for them.
+Customers should be able to provision their own resources from our service catalogue or make use of our support model and can pick which is right for them.
 
-**We aim to be a 'Minimum Viable Platform'** - light on process, with no unnecessary abstractions or coupling.
+We endeavour to deliver the right balance of governance and freedom to ensure that we can deliver our guarantee of a secure platform to operate on, without stifling your freedom to innovate

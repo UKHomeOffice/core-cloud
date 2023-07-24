@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: principles
 ---
 **We operate consumption-based billing**. \
-This means teams only pay for their usage and are incentivised to optimise their resources. 
+Customers are charged on a consumption model and are incentivised to optimise their resources. 
 
 **We support teams in optimising their resources** using techniques like autoscaling, downscaling, spot pricing and ARM powered instances.
 
