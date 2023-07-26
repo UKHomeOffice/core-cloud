@@ -1,7 +1,7 @@
 ---
 layout: sub-navigation
 order: 103
-title: Unobtrusive Security
+title: Unobtrusive security
 excerpt: Short extract
 tags:
 - principle
