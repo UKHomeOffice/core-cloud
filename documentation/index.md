@@ -5,7 +5,7 @@ order: 1
 title: Core Cloud Documentation
 description: Documentation for the Home Office Core Cloud Platform
 ---
-<div class="flex-items animated-border">
+<div class="flex-items">
 {% for item in collections["homepage"] %}
   <div>
     <h2 class="govuk-heading-m govuk-!-font-size-27">{{ item.data.title }}</h2>

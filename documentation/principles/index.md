@@ -15,7 +15,14 @@ We have {{ collections["principle"].length }} fundamental principles that we use
 
 {% for item in collections["principle"] %}
   <div>
-    <h2 class="govuk-heading-m govuk-!-font-size-27">{{ collections["principle"].indexOf(item) +1 }}. {{ item.data.title }}; {{ item.data.excerpt | markdown("inline") }}</h2>
-    <p class="govuk-body">{{ item.content }}</p>
+    <h2 class="govuk-heading-m govuk-!-font-size-27">{{ item.data.title }}</h2>
+    <p class="govuk-body">{{ item.data.excerpt | markdown("inline") }}</p>
+    {% set html = ['Learn more<span class="no-presentation"> about the ', item.data.title, ' principle</span>'] | join %}
+        {{ govukButton({
+          classes: "x-govuk-button--inverse",
+          html: html,
+          href: item.url | url,
+          isStartButton: false
+        }) }}
   </div>
 {% endfor %}
