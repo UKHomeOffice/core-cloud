@@ -8,7 +8,7 @@ tags:
 eleventyNavigation:
   parent: principles
 ---
-**We design for automation** \
+**We design for automation.** \
 Platform operations that are repeatable and are required to be run often should be automated. \
 Where things can't be automated we aim for [runnable documentation](https://github.blog/2015-10-06-runnable-documentation/).
 
