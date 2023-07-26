@@ -1,7 +1,7 @@
 ---
 layout: sub-navigation
 order: 105
-title: Cost Effective
+title: Cost effective
 excerpt: We aim to help customers reduce build and run costs.
 tags:
 - principle
