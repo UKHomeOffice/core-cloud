@@ -10,6 +10,8 @@ eleventyNavigation:
   key: principles
   title: Principles
 ---
+{% from "govuk/components/button/macro.njk" import govukButton %}
+<div class="flex-items">
 
 We have {{ collections["principle"].length }} fundamental principles that we use to robustly evaluate the decisions we make.
 
@@ -26,3 +28,4 @@ We have {{ collections["principle"].length }} fundamental principles that we use
         }) }}
   </div>
 {% endfor %}
+</div>
