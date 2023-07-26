@@ -1,9 +1,7 @@
 const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
 
 module.exports = function(eleventyConfig) {
-  const pathPrefix = process.env.GITHUB_ACTIONS
-      ? '/core-cloud/'
-      : '/';
+  const pathPrefix = '/core-cloud/';
 
   // Register the plugin
   const govukEleventyPluginConfig = {
