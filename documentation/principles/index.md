@@ -11,9 +11,15 @@ eleventyNavigation:
   title: Principles
 ---
 {% from "govuk/components/button/macro.njk" import govukButton %}
-<div class="flex-items">
 
-We have {{ collections["principle"].length }} fundamental principles that we use to robustly evaluate the decisions we make.
+## Why principles are important
+These {{ collections["principle"].length }} principles form part of our culture and ways of working. \
+They guide and shape our approach, and we use them to robustly evaluate the decisions we make. \
+Where we deviate from these principles there must be justification, discussion and consensus. \
+Conversely these principles are a living document, and they are open to challenge, criticism and [contribution](https://github.com/UKHomeOffice/core-cloud).
+
+
+<div class="flex-items">
 
 {% for item in collections["principle"] %}
   <div>
