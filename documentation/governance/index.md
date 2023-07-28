@@ -12,7 +12,7 @@ This recomendation is from AWS but we've explicitly called it out so that we can
 
 >"... organize accounts using OUs based on function, compliance requirements, or a common set of controls rather than mirroring your organization’s reporting structure."
 
-Allowing for other AWS recommendations that we will adopt, if we need to expand our organisational structure, we anticipate that the structure will most likely folling the governance i.e. accounts governed by the same TDA committee will sit in the same OU.
+Allowing for other AWS recommendations that we will adopt, if we need to expand our organisational structure, we anticipate that the structure will most likely follow the governance i.e. accounts governed by the same TDA committee will sit in the same OU.
 ### AWS [Design principles for your multi-account strategy](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/design-principles-for-your-multi-account-strategy.html)
 
 We have chosen to adopt the following recommendations
