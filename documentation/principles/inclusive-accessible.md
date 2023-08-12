@@ -1,12 +1,13 @@
 ---
-layout: sub-navigation
-order: 102
+layout: sub-navigation.njk
 title: Inclusive and accessible
+description: We aim to be open and transparent
 excerpt: We aim to be open and transparent
 tags:
 - principle
 eleventyNavigation:
   parent: principles
+  order: 2
 ---
 **We practice 'open by default'.** \
 This includes design documentation, decisions, and code repositories.

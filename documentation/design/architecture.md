@@ -1,10 +1,11 @@
 ---
-layout: page.njk
-order: 3
+layout: sub-navigation.njk
 title: Target Architecture
 excerpt: Secure hub-and-spoke network topology with shared service including ingress and egress
 tags:
-- homepage
+- design
+eleventyNavigation:
+  parent: design
 ---
 
 ### Choices
@@ -26,4 +27,4 @@ policy and applied at an OU level (see [Account Strategy](../governance/)).
 ### (TODO)
 List how this meets NCSC recommendations or any further required considerations
 ### Diagram
-![Network diagram](../assets/images/CoreCloud.png)
+![Network diagram](../../assets/images/CoreCloud.png)

@@ -25,25 +25,9 @@ body:before {
 }
 
 body .govuk-main-wrapper {
-    padding-top: 0px;
+    padding-top: 20px;
   }
-  
-body .x-govuk-masthead {
-  margin-bottom: 20px;
-}
 
-.x-govuk-sub-navigation {
-  padding-top: 20px;
-}
-@media (min-width: 40.0625em) {
-    body .x-govuk-masthead {
-        margin-bottom: 40px;
-      }
-      
-      .x-govuk-sub-navigation {
-        padding-top: 40px;
-      }
-  }
 
 .govuk-header {
   background-color: #f1f1f1;
@@ -58,16 +42,6 @@ body .x-govuk-masthead {
   }
 }
 
-// Allows feedback banner to have correct bottom margin.
-.x-govuk-masthead {
-  margin-top: 0;
-}
-
-/* When there is no phase banner overlay the bottom border of the header */
-body .x-govuk-masthead:nth-child(4) {
-  margin-top: -10px;
-}
-
 .flex-items {
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +50,7 @@ body .x-govuk-masthead:nth-child(4) {
   & > div {
     border: 1px solid $brand-color;
     padding: 1% 1% 2% 1%;
-    width: 30%;
+    width: 45%;
     margin-bottom: 2%;
     display: flex;
     flex-flow: column nowrap;
@@ -87,47 +61,6 @@ body .x-govuk-masthead:nth-child(4) {
     }
   }
 
-  &.animated-border > div {
-    border: none;
-    --border-size: 3px;
-    --border-angle: 0turn;
-    background-image: conic-gradient(from var(--border-angle), #fff, #fff, #fff),
-      conic-gradient(
-        from var(--border-angle),
-        $brand-color 33%,
-        transparent 1%,
-        $brand-color
-      );
-    background-size: calc(100% - (var(--border-size) * 2))
-        calc(100% - (var(--border-size) * 2)),
-      cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    animation: bg-spin 3s linear infinite;
-    animation-play-state: paused;
-
-    @keyframes bg-spin {
-      to {
-        --border-angle: 1turn;
-      }
-    }
-
-    &:hover {
-      animation-play-state: running;
-    }
-
-    & .x-govuk-button--inverse {
-      margin-top: 0px;
-    }
-  }
-}
-
-.no-presentation {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
 }
 
 @media (max-width: 840px) {
@@ -151,10 +84,4 @@ body .x-govuk-masthead:nth-child(4) {
     bottom: 40%;
     font-size: 7em;
   }
-}
-
-@property --border-angle {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0turn;
 }

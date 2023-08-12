@@ -1,10 +1,11 @@
 ---
-layout: page.njk
-order: 2
+layout: sub-navigation.njk
 title: Account Strategy
 excerpt: Organisational structure, accounts & policies
 tags:
-- homepage
+- design
+eleventyNavigation:
+  parent: design
 ---
 
 ### Organize based on security and operational needs

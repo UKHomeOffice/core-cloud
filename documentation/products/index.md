@@ -1,11 +1,12 @@
 ---
-layout: product.njk
-order: 4
+layout: sub-navigation.njk
 title: Products
 description: The Core Cloud product family is comprised of multiple products that meet the needs of HO customers
 excerpt: Overview of the products offered on Core Cloud
-tags:
-- homepage
+eleventyNavigation:
+  key: products
+  title: Products
+  order: 3
 ---
 
 ### Product based Delivery of Cloud
