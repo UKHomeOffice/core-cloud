@@ -1,10 +1,11 @@
 ---
-layout: page.njk
-order: 2
+layout: sub-navigation.njk
 title: Account Strategy
-excerpt: Organisational structure, accounts & policies
+description: Organisational structure, accounts & policies
 tags:
-- homepage
+  - design
+eleventyNavigation:
+  parent: design
 ---
 
 ### Organize based on security and operational needs
@@ -29,7 +30,7 @@ Our initial target is similar to the AWS example [Basic organization with CI/CD 
 
 We have added the [Policy Staging OU](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/policy-staging-ou.html) but removed the [Sandbox OU](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/sandbox-ou.html) as we do not intend to target these types of accounts at launch.
 
-![Organisation structure](../assets/images/Organisations.png)
+![Organisation structure](../../assets/images/Organisations.png)
 
 <div class="no-presentation">
 

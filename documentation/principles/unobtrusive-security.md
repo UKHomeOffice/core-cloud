@@ -1,12 +1,12 @@
 ---
-layout: sub-navigation
-order: 103
+layout: sub-navigation.njk
 title: Unobtrusive security
-excerpt: Short extract
+description: Short extract
 tags:
 - principle
 eleventyNavigation:
   parent: principles
+  order: 5
 ---
 **We will adhere to the [NCSC cloud security principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles).**
 

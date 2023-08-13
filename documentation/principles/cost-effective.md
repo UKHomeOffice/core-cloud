@@ -1,12 +1,12 @@
 ---
-layout: sub-navigation
-order: 105
+layout: sub-navigation.njk
 title: Cost effective
-excerpt: We aim to help customers reduce build and run costs.
+description: We aim to help customers reduce build and run costs.
 tags:
 - principle
 eleventyNavigation:
   parent: principles
+  order: 3
 ---
 **We operate consumption-based billing**. \
 Customers are charged on a consumption model and are incentivised to optimise their resources. 

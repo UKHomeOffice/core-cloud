@@ -1,12 +1,12 @@
 ---
-layout: sub-navigation
-order: 101
+layout: sub-navigation.njk
 title: Available, reliable and testable
-excerpt: We aim to be a mature platform with no surprises.
+description: We aim to be a mature platform with no surprises.
 tags:
 - principle
 eleventyNavigation:
   parent: principles
+  order: 6
 ---
 **We design for automation.** \
 Platform operations that are repeatable and are required to be run often should be automated. \

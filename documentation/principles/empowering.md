@@ -1,12 +1,12 @@
 ---
-layout: sub-navigation
-order: 106
+layout: sub-navigation.njk
 title: Empowering
-excerpt: We aim to allow customers to confidently deliver at pace and scale.
+description: We aim to allow customers to confidently deliver at pace and scale.
 tags:
 - principle
 eleventyNavigation:
   parent: principles
+  order: 1
 ---
 **We design for self-service.** \
 Customers should be able to provision their own resources from our service catalogue or make use of our support model and can pick which is right for them.

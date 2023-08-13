@@ -1,14 +1,13 @@
 ---
-layout: product.njk
-order: 1
+layout: sub-navigation.njk
 title: Principles
 description: Core Cloud aims to be a high quality, easy to operate, strategic platform.
-excerpt: Core Cloud aims to be a high quality, easy to operate, strategic platform.
 tags:
 - homepage
 eleventyNavigation:
   key: principles
   title: Principles
+  order: 1
 ---
 {% from "govuk/components/button/macro.njk" import govukButton %}
 
@@ -24,7 +23,7 @@ Conversely these principles are a living document, and they are open to challeng
 {% for item in collections["principle"] %}
   <div>
     <h2 class="govuk-heading-m govuk-!-font-size-27">{{ item.data.title }}</h2>
-    <p class="govuk-body">{{ item.data.excerpt | markdown("inline") }}</p>
+    <p class="govuk-body">{{ item.data.description | markdown("inline") }}</p>
     {% set html = ['Learn more<span class="no-presentation"> about the ', item.data.title, ' principle</span>'] | join %}
         {{ govukButton({
           classes: "x-govuk-button--inverse",
