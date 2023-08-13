@@ -6,7 +6,7 @@ tags:
 - principle
 eleventyNavigation:
   parent: principles
-  order: 5
+  order: 6
 ---
 **We will adhere to the [NCSC cloud security principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles).**
 

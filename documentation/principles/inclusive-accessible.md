@@ -6,7 +6,7 @@ tags:
 - principle
 eleventyNavigation:
   parent: principles
-  order: 2
+  order: 4
 ---
 **We practice 'open by default'.** \
 This includes design documentation, decisions, and code repositories.

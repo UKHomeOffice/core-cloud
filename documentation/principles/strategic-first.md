@@ -6,7 +6,7 @@ tags:
 - principle
 eleventyNavigation:
   parent: principles
-  order: 4
+  order: 5
 ---
 **Our approach is to be strategic first.** \
 Where new requirements are identified we will try and meet them in reusable way.

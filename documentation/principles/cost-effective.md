@@ -6,7 +6,7 @@ tags:
 - principle
 eleventyNavigation:
   parent: principles
-  order: 3
+  order: 2
 ---
 **We operate consumption-based billing**. \
 Customers are charged on a consumption model and are incentivised to optimise their resources. 

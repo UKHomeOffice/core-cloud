@@ -6,7 +6,7 @@ tags:
 - principle
 eleventyNavigation:
   parent: principles
-  order: 1
+  order: 3
 ---
 **We design for self-service.** \
 Customers should be able to provision their own resources from our service catalogue or make use of our support model and can pick which is right for them.

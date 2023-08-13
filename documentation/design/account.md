@@ -6,6 +6,7 @@ tags:
   - design
 eleventyNavigation:
   parent: design
+  order: 2
 ---
 
 ### Organize based on security and operational needs

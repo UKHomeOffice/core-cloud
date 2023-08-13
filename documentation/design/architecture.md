@@ -1,11 +1,12 @@
 ---
 layout: sub-navigation.njk
-title: Target Architecture
+title: Architecture
 description: Secure hub-and-spoke network topology with shared service including ingress and egress
 tags:
   - design
 eleventyNavigation:
   parent: design
+  order: 1
 ---
 
 ### Choices

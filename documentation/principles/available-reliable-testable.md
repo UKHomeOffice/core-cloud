@@ -6,7 +6,7 @@ tags:
 - principle
 eleventyNavigation:
   parent: principles
-  order: 6
+  order: 1
 ---
 **We design for automation.** \
 Platform operations that are repeatable and are required to be run often should be automated. \
