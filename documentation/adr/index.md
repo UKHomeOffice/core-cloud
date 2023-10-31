@@ -1,19 +1,27 @@
-# Core Cloud Architecture Decisions
+---
+layout: page.njk
+title: Core Cloud Architecture Decisions
+---
 
 This is a record of important decisions made on Core Cloud.
 
+{% for section in [
+    { name: 'Propsals', collectionName: 'proposedAdrs'},
+    { name: 'Decisions', collectionName: 'acceptedAdrs'},
+    { name: 'Superceded Decisions', collectionName: 'supersededAdrs'},
+    { name: 'Rejected Proposals', collectionName: 'rejectedAdrs'}
+] %}
 
-## Table of contents
+### {{ section.name }}
+{% if collections[section.collectionName].length === 0 %}No records to display{% endif %} 
+{% for item in collections[section.collectionName] 
+%}  <ul class="govuk-list">
+        <li><a class="govuk-link" href="{{ item.url | url }}">{{ item.data.title }}</a></li>
+    </div>
+    {% endfor %}
 
-* 👀  [0. - Use Architectural Decisions](000-use-architectural-decisions.md)
+{% endfor %}
 
-### Statuses
+### References
 
-* Proposed: 👀
-* Accepted: ✅
-* Rejected: ❌
-* Superseded: 🪦
-
-
-## References
 Inspired by [MoJ Cloud Platform](https://github.com/ministryofjustice/cloud-platform/blob/734c9470ceca4f2dbbd13b6d23d17ef177779839/architecture-decision-record/README.md).

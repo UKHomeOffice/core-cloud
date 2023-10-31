@@ -1,10 +1,16 @@
-# ADR 0: Use Architectural Decisions
+---
+layout: page.njk
+status: Proposed
+date: git Created
+tags:
+  - adr
+order: 0
+title: 000 - Core Cloud Architecture Decisions
+---
 
-**Date: 2023-10-31**
+**Date: {{ page.date.toISOString().substring(0,10) }}**
 
-## Status
-
-👀 Proposed
+**Status: {{ status }}**
 
 ## Context
 
