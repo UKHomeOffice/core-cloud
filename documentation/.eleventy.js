@@ -1,5 +1,10 @@
 const govukEleventyPlugin = require("@x-govuk/govuk-eleventy-plugin");
 
+const getAdrCollectionByStatus = (status) => (collectionApi) =>
+  collectionApi
+    .getFilteredByTag("adr")
+    .filter((item) => item.data.status.toLowerCase() == status);
+
 module.exports = function (eleventyConfig) {
   const pathPrefix = "/core-cloud/";
 
@@ -39,6 +44,26 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("./assets");
   eleventyConfig.addPassthroughCopy({ "../LICENSE": "LICENSE.txt" });
+
+  eleventyConfig.addCollection(
+    "proposedAdrs",
+    getAdrCollectionByStatus("proposed")
+  );
+
+  eleventyConfig.addCollection(
+    "acceptedAdrs",
+    getAdrCollectionByStatus("accepted")
+  );
+
+  eleventyConfig.addCollection(
+    "rejectedAdrs",
+    getAdrCollectionByStatus("rejected")
+  );
+
+  eleventyConfig.addCollection(
+    "supersededAdrs",
+    getAdrCollectionByStatus("superseded")
+  );
 
   return {
     pathPrefix,
