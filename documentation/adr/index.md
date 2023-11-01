@@ -6,7 +6,7 @@ title: Core Cloud Architecture Decisions
 This is a record of important decisions made on Core Cloud.
 
 {% for section in [
-    { name: 'Propsals', collectionName: 'proposedAdrs'},
+    { name: 'Proposals', collectionName: 'proposedAdrs'},
     { name: 'Decisions', collectionName: 'acceptedAdrs'},
     { name: 'Superceded Decisions', collectionName: 'supersededAdrs'},
     { name: 'Rejected Proposals', collectionName: 'rejectedAdrs'}
