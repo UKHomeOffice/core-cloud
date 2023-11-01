@@ -11,15 +11,15 @@ This is a record of important decisions made on Core Cloud.
     { name: 'Superceded Decisions', collectionName: 'supersededAdrs'},
     { name: 'Rejected Proposals', collectionName: 'rejectedAdrs'}
 ] %}
-
+{% if collections[section.collectionName].length > 0 %}
 ### {{ section.name }}
-{% if collections[section.collectionName].length === 0 %}No records to display{% endif %} 
+<ul class="govuk-list">
 {% for item in collections[section.collectionName] 
-%}  <ul class="govuk-list">
-        <li><a class="govuk-link" href="{{ item.url | url }}">{{ item.data.title }}</a></li>
-    </div>
-    {% endfor %}
-
+%}
+    <li><a class="govuk-link" href="{{ item.url | url }}">{{ item.data.title }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
 {% endfor %}
 
 ### References
