@@ -39,3 +39,5 @@ LZA is deployed through CodePipeline and CodeBuild using AWS’s installer.
 Observability will require access to CodeCommit, CodeBuild, CodePipeline and centralised logging.
 
 OOB configuration takes approx. 1 hour to run. Incremental changes require a full run and the run time will extend as the solution is configured.
+
+Troubleshooting and recovering from failed deployments can be difficult as stacks are deployed across multiple accounts.
