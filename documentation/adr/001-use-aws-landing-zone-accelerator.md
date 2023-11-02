@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-status: Proposed
+status: Accepted
 date: git Created
 tags:
   - adr
