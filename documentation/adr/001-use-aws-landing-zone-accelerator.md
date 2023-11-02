@@ -32,7 +32,7 @@ LZA config will have to exist in AWS CodeCommit.
 
 LZA Uses CloudFormation stacks
 
-If we have complex requirements that LZA doesn't support we will need to engage the LZA team with feature requests or role our own customization.
+If we have complex requirements that LZA doesn't support we will need to engage the LZA team with feature requests or roll our own customization.
 
 LZA is deployed through CodePipeline and CodeBuild using AWS’s installer.
 
