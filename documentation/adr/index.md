@@ -12,6 +12,7 @@ This is a record of important decisions made on Core Cloud.
     { name: 'Rejected Proposals', collectionName: 'rejectedAdrs'}
 ] %}
 {% if collections[section.collectionName].length > 0 %}
+
 ### {{ section.name }}
 <ul class="govuk-list">
 {% for item in collections[section.collectionName] 
