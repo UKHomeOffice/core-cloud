@@ -48,12 +48,10 @@ We will update the CodeCommit repositories from GitHub in a write-only way.
 
 ## Consequences
 
-There is a trust relationship between GitHub and AWS for use by the platform team. 
-
-Because this is for the platform team use only, additional IdP's would need to be created for customer use, which is out of scope of this ADR.
+There is a trust relationship between GitHub and the AWS management account. 
 
 A new attack vector is created in our management account.
 
-IAM Roles are needed to restrict access from specific GitHub Organisations, Repositories, and Branches. 
+IAM Roles are needed to allow access from specific GitHub Organisations, Repositories, and Branches. 
 
 The obligation to be correctly configured belongs to role creators and not OpenID Connect.
