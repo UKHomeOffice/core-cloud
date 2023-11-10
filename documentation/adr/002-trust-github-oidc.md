@@ -28,13 +28,9 @@ GitHub Enterprise is the Home Office's strategic developer platform.
 
 Other platforms such as GitLab, Code Commit and Bitbucket are also used in the Home Office.
 
-One of our principles is 'Strategic First', which means we should defer to the Home Office strategic solution by default.
-
 This ADR is only concerned with our platform team and is not a decision or limitation for customer teams.
 
 OpenID Connect (OIDC) is an open authentication protocol that is supported by AWS and GitHub.
-
-There needs to be a process where trust can be revoked at short notice in case of any emergent security concerns.
 
 ## Decision
 
@@ -44,7 +40,7 @@ We will use OpenId Connect to establish a trusted relationship.
 
 We will set up one OIDC in each LZA management account and scope IAM roles to our code repository.
 
-We will update the CodeCommit repositories from GitHub in a write-only way.
+We will create a process to manage the data flow from GitHub too CodeCommit that will follow 'principle of least privilege'
 
 ## Consequences
 
@@ -55,3 +51,7 @@ A new attack vector is created in our management account.
 IAM Roles are needed to allow access from specific GitHub Organisations, Repositories, and Branches. 
 
 The obligation to be correctly configured belongs to role creators and not OpenID Connect.
+
+We have to manage access to repositories in GitHub rather than CodeCommit or through AWS
+
+Developers will not have visibility of the management account for example to view pipeline status.
