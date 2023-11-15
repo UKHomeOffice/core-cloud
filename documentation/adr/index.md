@@ -1,9 +1,15 @@
 ---
 layout: page.njk
-title: Core Cloud Architecture Decisions
+order: 5
+title: Platform ADRs
+description: Where we record significant architectural decisions.
+excerpt: Where we record significant architectural decisions.
+tags:
+  - homepage
+eleventyNavigation:
+  key: adrs
+  title: Platform ADRs
 ---
-
-This is a record of important decisions made on Core Cloud.
 
 {% for section in [
     { name: 'Proposals', collectionName: 'proposedAdrs'},
