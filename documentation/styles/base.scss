@@ -70,6 +70,12 @@ body .x-govuk-masthead:nth-child(4) {
     }
   }
 
+  & > div:empty {
+    border:0;
+    padding: 0 1%;
+    margin-bottom: 0;
+  }
+
   &.animated-border > div {
     border: none;
     --border-size: 3px;
