@@ -7,23 +7,6 @@ $brand-color: #1d70b8;
   font-weight: 400;
 }
 
-body:before {
-  content: "DRAFT";
-  position: fixed;
-  bottom: 40%;
-  display: block;
-  width: 100%;
-  font-size: 10em;
-  text-align: center;
-  opacity: 0.2;
-  color: black;
-  -webkit-transform: rotate(-40deg);
-  -moz-transform: rotate(-40deg);
-  -o-transform: rotate(-40deg);
-  transform: rotate(-40deg);
-  pointer-events: none;
-}
-
 body .govuk-main-wrapper {
     padding-top: 0px;
   }
