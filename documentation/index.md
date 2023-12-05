@@ -13,4 +13,5 @@ description: Documentation for the Home Office Core Cloud Platform
     <p class="govuk-body"><a class="govuk-link govuk-!-font-weight-bold" href="{{ item.url | url }}">Learn about our {{ item.data.title | lower }}</a></p>
   </div>
 {% endfor %}
+<div></div><!-- Required to ensure alignment in flex layout -->
 </div>

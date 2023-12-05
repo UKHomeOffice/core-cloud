@@ -4,7 +4,7 @@ status: Accepted
 date: git Created
 tags:
   - adr
-order: 0
+order: 1
 title: 001 - Landing Zone Accelerator
 ---
 
