@@ -32,5 +32,5 @@ Shared VPCs would be a set size
 ### (TODO)
 List how this meets NCSC recommendations or any further required considerations
 ### Diagrams
-![Shared VPC Architecture](https://github.com/aws-samples/landing-zone-accelerator-on-aws-for-tse-se/blob/main/architecture-doc/images/sensitive-central.png, "Shared VPC Architecture")
-![NACL and Security Group Patterns](https://github.com/aws-samples/landing-zone-accelerator-on-aws-for-tse-se/blob/main/architecture-doc/images/TSE-SE4.png, "NACL and Security Group Patterns")
+![Shared VPC Architecture](https://github.com/aws-samples/landing-zone-accelerator-on-aws-for-tse-se/blob/main/architecture-doc/images/sensitive-central.png "Shared VPC Architecture")
+![NACL and Security Group Patterns](https://github.com/aws-samples/landing-zone-accelerator-on-aws-for-tse-se/blob/main/architecture-doc/images/TSE-SE4.png "NACL and Security Group Patterns")
