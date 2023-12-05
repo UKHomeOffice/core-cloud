@@ -23,5 +23,6 @@ We have reviewed the TSE-SE reference architecture and believe it aligns well wi
 ## Decision
 
 ## Consequences
+Robost and secure target architecture that can be delivered via AWS LZA ([ADR 001](../001-use-aws-landing-zone-accelerator/)) without requiring additional custom tooling.
 
 
