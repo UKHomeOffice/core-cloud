@@ -17,13 +17,16 @@ module.exports = {
             url: "https://www.github.com/UKHomeOffice/semver-tag-action"
         },
     ],
-    documentationRepos: [{
-        name: "core-cloud",
-        url: "https://www.github.com/UKHomeOffice/core-cloud"
-    },], configurationRepos: [
+    documentationRepos: [
+        {
+            name: "core-cloud",
+            url: "https://www.github.com/UKHomeOffice/core-cloud"
+        }
+    ],
+    configurationRepos: [
         {
             name: "core-cloud-github-config",
             url: "https://www.github.com/UKHomeOffice/core-cloud-github-config"
         },
-    ],
+    ]
 }
