@@ -28,17 +28,25 @@ We will move to having a baseline configuration, with environment specific code 
 
 We will ensure differences in configuration can be validated and approved before merge, and deployment to an environment.
 
+We will ensure that there is a common history on `main` branch across all environments. Templated deployments will be run from the `deploy` branch.
+
 We will ensure that baseline configuration and deployed configuration is visible within CodeCommit to platform engineers.
+
+We will centrally manage access to the CodeCommit repository to prevent access from outside LZA.
 
 We will create a new process for platform engineers to follow to ensure changes are deployed correctly between environments.
 
 ## Consequences
-Deployment pipeline will need to be updated to allow for templated values to be applied whilst maintaining the baseline configuration. This change impacts the way that git history is currently maintained, however will allow us to differentiate between baseline and deployed configuration.
+Deployment pipeline will need to be updated to allow for templated values to be applied whilst maintaining the baseline configuration. To maintain common GitHub history, templated deployments across all environments will have to use a non-`main` branch.
 
-Permissions will need to be applied to workload accounts to ensure no access exists to view the deployment CodeCommit repository.
+Restrictions will need to be applied to ensure only LZA config can manage access to the CodeCommit repository.
 
 Environment specific configuration is stored within a private GitHub repository that platform developers can manage.
 
+Environment specific configuration will be distributed to CodeCommit repositories in all environments, even if not relevant to that environment.
+
 As features are propagated between environments, a further process is required to manage the deployment of changes between environments.
+
+This process will only manage the templating of YAML files, to replace files of other formats, a complete replacement file will need to be provided and configuration updated to point to it.
 
 Additional tooling needs to be understood and adopted by the team.
