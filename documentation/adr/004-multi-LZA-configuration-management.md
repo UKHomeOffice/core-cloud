@@ -47,6 +47,6 @@ Environment specific configuration will be distributed to CodeCommit repositorie
 
 As features are propagated between environments, a further process is required to manage the deployment of changes between environments.
 
-This process will only manage the templating of YAML files, to replace files of other formats, a complete replacement file will need to be provided and configuration updated to point to it.
+This process will only manage the templating of LZA YAML files, to replace other files, e.g. CloudFormation templates, IAM Policies, a complete replacement file will need to be provided and configuration updated to point to it.
 
 Additional tooling needs to be understood and adopted by the team.
