@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: core-cloud
+  annotations:
+    github.com/project-slug: UKHomeOffice/core-cloud
+spec:
+  type: other
+  lifecycle: unknown
+  owner: core-cloud-devops
