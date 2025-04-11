@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: core-cloud
+  description: A repo containing Core Cloud documentation.
+  annotations:
+    github.com/project-slug: UKHomeOffice/core-cloud
+spec:
+  type: service
+  owner: core-cloud-devops
+  lifecycle: deprecated
+  system: core-cloud
